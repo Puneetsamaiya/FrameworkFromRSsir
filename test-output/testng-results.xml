@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-13T18:12:58 IST" name="Default suite" finished-at="2021-12-13T18:13:28 IST" duration-ms="30625">
+    <groups>
+    </groups>
+    <test started-at="2021-12-13T18:12:58 IST" name="Default test" finished-at="2021-12-13T18:13:28 IST" duration-ms="30625">
+      <class name="TestComponents.DemoTestClass">
+        <test-method signature="fligtTest(java.util.HashMap)[pri:0, instance:TestComponents.DemoTestClass@39ad12b6]" started-at="2021-12-13T18:12:58 IST" name="fligtTest" data-provider="getData" finished-at="2021-12-13T18:13:15 IST" duration-ms="16626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{destination=HYD, destination2=BLR, origin=MAA}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fligtTest -->
+        <test-method signature="fligtTest(java.util.HashMap)[pri:0, instance:TestComponents.DemoTestClass@39ad12b6]" started-at="2021-12-13T18:13:15 IST" name="fligtTest" data-provider="getData" finished-at="2021-12-13T18:13:28 IST" duration-ms="13069" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{destination=BLR, destination2=MAA, origin=DEL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fligtTest -->
+      </class> <!-- TestComponents.DemoTestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
