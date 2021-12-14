@@ -10,6 +10,7 @@ public class FooterNav extends AbstractComponent {
 	By links = By.cssSelector("a");
 	
 	
+	
 	public FooterNav(WebDriver driver, By secElement) {
 		
 		// when you inherit parent class, you should invoke parent class constructor in child constructor
@@ -26,6 +27,7 @@ public class FooterNav extends AbstractComponent {
 		
 		 //findElement(flights).click();       
 		// since clicking on Flight is not making any changes so we are using another check
+		System.out.println("I am checking in code into git for the first time");
 		return (findElement(flights).getAttribute("class"));
 				
 	}
