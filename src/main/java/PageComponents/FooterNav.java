@@ -28,6 +28,9 @@ public class FooterNav extends AbstractComponent {
 		 //findElement(flights).click();       
 		// since clicking on Flight is not making any changes so we are using another check
 		System.out.println("I am checking in code into git for the first time");
+		System.out.println("I am checking in code into git for the second time");
+		System.out.println("I am checking in code into git for the sec time");
+		System.out.println("I am checking in code into git for the secon time");
 		return (findElement(flights).getAttribute("class"));
 				
 	}
